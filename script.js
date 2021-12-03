@@ -1,8 +1,5 @@
 const renderCountries = (arr) => {
-
-
     let returnHTML = "";
-
     for (const country of arr) {
         console.log(country.name.official);
         returnHTML += `
@@ -18,7 +15,6 @@ const renderFlags = (arr) => {
     for (const flag of arr) {
         returnHTML += `
         <img src="${flag.flags.png}">`
-
     }
     return returnHTML;
 }
